@@ -19,9 +19,10 @@ const niceShoesStr = "nice shoes";
 console.log("Ex.5:", niceShoesStr.includes("I"));
 console.log("Ex.5:", niceShoesStr.includes("n"));
 
-//string.replace
+//6
 const oldStr = "Morning";
-const newStr = oldStr.replace("Morning", "MMorningM");
+const newStr = oldStr.charAt(0) + oldStr + oldStr.charAt(0);
+
 console.log("Ex.6:", newStr);
 
 //string.slice(start index, end index)
@@ -29,7 +30,7 @@ const scritcherStr = "Beautiful";
 const lastThreeChars = scritcherStr.slice(-3);
 console.log("Ex.7:", lastThreeChars);
 
-//
+//8
 const boogieNightsStr = "Good";
 const firstChar = boogieNightsStr.charAt(0);
 const lastChar = boogieNightsStr.charAt(boogieNightsStr.length - 1);
@@ -44,7 +45,7 @@ console.log(
   `Ex.9: My name is ${firstName}. I live in ${city} and I am a ${job}`
 );
 
-//
+//10
 const foxStr = "the quick brown fox";
 const capitalFirstChar = foxStr.charAt(0).toUpperCase() + foxStr.slice(1);
 console.log("Ex.10:", capitalFirstChar);
